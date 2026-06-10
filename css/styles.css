@@ -3,11 +3,13 @@ body {
   font-family: "Heebo", sans-serif;
 }
 
+/* header section from here */
+
 .head-style {
   height: 90px;
   position: sticky;
   top: 0;
-  background-color: #fcfcfc;
+  background-color: #fff;
 }
 
 .navigation {
@@ -28,3 +30,139 @@ body {
   line-height: 100%;
   color: #000;
 }
+
+/* profile section from here */
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 148px;
+  margin-top: 140px;
+  margin-bottom: 71px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-top: 18px;
+}
+
+.profile-intro {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+  max-width: 506px;
+}
+
+.profile-intro-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #21243d;
+  max-width: 497px;
+  min-height: 66px;
+}
+
+.profile-download {
+  width: 208px;
+  height: 47px;
+  background-color: #ff6464;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  border-radius: 2px;
+}
+
+.prof-pic-main {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  box-shadow: -5px 13px 0 0 #edf7fa;
+}
+
+/* card section from here */
+
+.posts {
+  width: 100%;
+  height: 396px;
+  background-color: #edf7fa;
+}
+
+.posts-container {
+  padding: 0px 148px;
+}
+
+.posts-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent {
+  margin-top: 7px;
+}
+
+.recent h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.viewing {
+  margin-top: 17px;
+}
+
+.viewing a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #00a8cc;
+}
+
+.post-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  height: 295px;
+  column-gap: 20px;
+}
+
+.post-card {
+  width: 50%;
+  height: 295px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 23px 24px 7px 21px;
+}
+
+.post-card h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #21243d;
+}
+
+.post-card h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #21243d;
+  padding: 17px 0px;
+}
+
+.line {
+  padding: 0px 24px;
+}
+
+.post-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #21243d;
+}
+
+/* featured works section from here */
