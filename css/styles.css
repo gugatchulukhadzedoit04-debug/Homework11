@@ -137,6 +137,7 @@ body {
   background-color: #fff;
   border-radius: 4px;
   padding: 23px 24px 7px 21px;
+  overflow: hidden;
 }
 
 .post-card h2 {
@@ -168,7 +169,7 @@ body {
 /* featured works section from here */
 
 .featured {
-  padding: 15px 148px 83px;
+  padding: 15px 148px 53px;
   display: flex;
   flex-direction: column;
   row-gap: 22px;
@@ -242,6 +243,7 @@ hr {
   background-color: #e0e0e0;
   margin-top: 30px;
   margin-bottom: 30px;
+  opacity: 50%;
 }
 
 /* footer from here */
@@ -272,4 +274,98 @@ hr {
   line-height: 100%;
   color: #21243d;
   text-align: center;
+}
+
+/* responsive from here */
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .head-style {
+    height: 53px;
+  }
+
+  .navigation {
+    padding: 0px;
+    padding-right: 18px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .introduction {
+    justify-content: center;
+    flex-direction: column-reverse;
+    row-gap: 34px;
+    margin-top: 33px;
+    margin-bottom: 58px;
+  }
+
+  .profile-section {
+    text-align: center;
+  }
+
+  .profile-intro {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .introduction,
+  .posts-container,
+  .featured,
+  .feet,
+  .profile-section {
+    padding: 0px 10px;
+    align-items: center;
+  }
+
+  .viewing {
+    display: none;
+  }
+
+  .posts {
+    width: 100%;
+    height: 720px;
+  }
+
+  .posts-nav ul {
+    justify-content: center;
+  }
+
+  .post-card-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 17px;
+  }
+
+  .post-card {
+    width: 100%;
+    padding: 12px 21px 22px 19px;
+  }
+
+  .recent {
+    margin: 0px;
+  }
+
+  .featured-cards {
+    display: block;
+  }
+
+  .featured-cards img {
+    width: 100%;
+    margin-bottom: 17px;
+  }
 }
